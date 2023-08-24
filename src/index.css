@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-inter;
+    @apply text-white;
+  }
+}
+
+.container {
+  @apply w-full;
+  @apply max-w-[64rem];
+  @apply mx-auto;
+  @apply px-4;
+  @apply sm:px-6;
+}

@@ -2,11 +2,19 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    screens: {
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px',
+    },
     extend: {
       colors: {
+        semiBlack: 'rgba(0, 0, 0, 0.5)',
         dark: '#181e1e',
         red: '#e63946',
-        pink: '#ff6864',
+        brightRed: '#ff6864',
         yellow: '#ffca28',
       },
 
