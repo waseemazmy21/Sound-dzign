@@ -75,7 +75,7 @@ const Navbar = () => {
           {navLinks.map((link, index) => (
             <li
               className={`font-extrabold  ${
-                navLinks.length - 1 !== index ? 'mr-[3.12rem]' : 'mr-0'
+                navLinks.length - 1 !== index ? 'mr-[2rem]' : 'mr-0'
               }`}
               key={link.id}
             >

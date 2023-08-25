@@ -11,12 +11,37 @@
 
 .container {
   @apply w-full;
-  @apply max-w-[64rem]; /* max-width: 1024px (64rem) + 2rem + 2rem */
+  @apply max-w-[72rem]; /* max-width: 1024px (64rem) + 4rem + 4rem */
   @apply mx-auto;
-  @apply px-6;
-  @apply sm:px-8;
+  @apply px-8;
+  @apply md:px-16;
 }
 
+/* padding for sections */
+.paddingY {
+  @apply py-[3.75rem];
+  @apply md:py-[5rem];
+}
+
+/* list marker in topics section */
+
+li.marker {
+  display: grid;
+  grid-template-columns: 1rem auto;
+  align-items: center;
+  gap: 1rem;
+}
+
+li.marker::before {
+  content: '';
+  display: block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  @apply bg-red;
+}
+
+/* Mobile menu slide bottom animation */
 .slide-bottom {
   -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
