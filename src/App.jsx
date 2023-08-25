@@ -1,8 +1,9 @@
-import { Header } from './components';
+import { Header, Navbar } from './components';
 
 const App = () => {
   return (
-    <div >
+    <div>
+      <Navbar />
       <Header />
     </div>
   );

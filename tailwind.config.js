@@ -13,6 +13,7 @@ export default {
       colors: {
         semiBlack: 'rgba(0, 0, 0, 0.5)',
         dark: '#181e1e',
+        menuBg: '#212121',
         red: '#e63946',
         brightRed: '#ff6864',
         yellow: '#ffca28',
