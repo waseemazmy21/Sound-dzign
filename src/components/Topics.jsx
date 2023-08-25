@@ -12,7 +12,7 @@ const Topics = () => {
           className='bg-no-repeat bg-[bottom_right]'
           style={{ backgroundImage: `url(${bgElement1})` }}
         >
-          <Heading text='What will you learn?' className='mb-20' />
+          <Heading text='What will you learn?' />
 
           <div className='flex  justify-between'>
             <ul className='space-y-8'>

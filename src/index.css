@@ -9,6 +9,10 @@
   }
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 .container {
   @apply w-full;
   @apply max-w-[72rem]; /* max-width: 1024px (64rem) + 4rem + 4rem */

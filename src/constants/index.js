@@ -5,7 +5,9 @@ import {
   mixing,
   mixingConsole,
   mastering,
-  bgElement1,
+  blog1,
+  blog2,
+  blog3,
 } from '../assets';
 
 export const navLinks = [
@@ -22,4 +24,25 @@ export const topics = [
   { id: 'topic-4', title: 'Mixing', img: mixing },
   { id: 'topic-5', title: 'Mixing Console', img: mixingConsole },
   { id: 'topic-6', title: 'Mastering', img: mastering },
+];
+
+export const posts = [
+  {
+    id: 'blog-1',
+    title: 'How To Use Drum Machine in Logic Pro X',
+    padge: 'DAW',
+    img: blog1,
+  },
+  {
+    id: 'blog-2',
+    title: 'How To Mix Guitars Effectively',
+    padge: 'Mixing',
+    img: blog2,
+  },
+  {
+    id: 'blog-3',
+    title: 'The Real Power of Harmonies in Music Production',
+    padge: 'Vox',
+    img: blog3,
+  },
 ];
