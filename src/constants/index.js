@@ -8,11 +8,14 @@ import {
   blog1,
   blog2,
   blog3,
+  testimonial1,
+  testimonial2,
+  testimonial3,
 } from '../assets';
 
 export const navLinks = [
-  { id: 'about', title: 'About' },
-  { id: 'course details', title: 'Course Details' },
+  { id: '', title: 'Home' },
+  { id: 'course-details', title: 'Course Details' },
   { id: 'blog', title: 'Blog' },
   { id: 'testimonials', title: 'Testimonials' },
 ];
@@ -30,19 +33,40 @@ export const posts = [
   {
     id: 'blog-1',
     title: 'How To Use Drum Machine in Logic Pro X',
-    padge: 'DAW',
+    badge: 'DAW',
     img: blog1,
   },
   {
     id: 'blog-2',
     title: 'How To Mix Guitars Effectively',
-    padge: 'Mixing',
+    badge: 'Mixing',
     img: blog2,
   },
   {
     id: 'blog-3',
     title: 'The Real Power of Harmonies in Music Production',
-    padge: 'Vox',
+    badge: 'Vox',
     img: blog3,
+  },
+];
+
+export const testimonials = [
+  {
+    id: 'testimonial-1',
+    name: 'Peter Adams',
+    text: 'This is a great course. I got to learn a lot.',
+    img: testimonial1,
+  },
+  {
+    id: 'testimonial-2',
+    name: 'Robert Fox',
+    text: 'I got to learn a lot about Music Production with this course. Thanks :)',
+    img: testimonial2,
+  },
+  {
+    id: 'testimonial-3',
+    name: 'Emily Smith',
+    text: 'Awesome! Great job!!.',
+    img: testimonial3,
   },
 ];

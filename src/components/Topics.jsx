@@ -6,7 +6,7 @@ import { bgElement1 } from '../assets';
 const Topics = () => {
   const [activeTopicIndex, setActiveTopicIndex] = useState(0);
   return (
-    <section className='bg-black'>
+    <section id='course-details' className='bg-black'>
       <div className='container paddingY '>
         <div
           className='bg-no-repeat bg-[bottom_right]'

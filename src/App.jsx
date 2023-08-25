@@ -1,14 +1,15 @@
-import { Header, Navbar, Topics, Info, Blog } from './components';
+import { Header, Navbar, Topics, Info, Blog, Testimonials } from './components';
 
 const App = () => {
   return (
-    <div>
+    <>
       <Navbar />
       <Header />
       <Topics />
       <Info />
       <Blog />
-    </div>
+      <Testimonials />
+    </>
   );
 };
 

@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <section id='blog' className='bg-brightRed'>
       <div className='container paddingY flex flex-col'>
-        <Heading text='Latest Posts' lineColor='yellow' />
+        <Heading text='Latest Posts' lineColor='bg-yellow' />
 
         <div className='flex r flex-row flex-wrap justify-center gap-8 mb-8'>
           {posts.map((blog) => (
