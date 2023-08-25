@@ -3,7 +3,7 @@ import { heroImage } from '../assets';
 const Header = () => {
   return (
     <header
-      className='w-full h-screen min-h-[500px] bg-cover bg-bottom'
+      className='w-full h-screen min-h-[500px] max-h-[900px] bg-cover bg-bottom'
       style={{ backgroundImage: `url(${heroImage})` }}
     >
       <div className='container h-full flex justify-end items-end'>
