@@ -27,6 +27,11 @@
   @apply md:py-[5rem];
 }
 
+.padding-t {
+  @apply pt-[3.75rem];
+  @apply md:pt-[5rem];
+}
+
 /* list marker in topics section */
 
 li.marker {

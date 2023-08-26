@@ -11,6 +11,9 @@ import {
   testimonial1,
   testimonial2,
   testimonial3,
+  facebookLogo,
+  twitterLogo,
+  instagramLogo,
 } from '../assets';
 
 export const navLinks = [
@@ -68,5 +71,26 @@ export const testimonials = [
     name: 'Emily Smith',
     text: 'Awesome! Great job!!.',
     img: testimonial3,
+  },
+];
+
+export const socials = [
+  {
+    id: 'icon-1',
+    img: facebookLogo,
+    alt: 'Facebook logo',
+    url: 'https://www.facebook.com/',
+  },
+  {
+    id: 'icon-2',
+    img: twitterLogo,
+    alt: 'Twitter logo',
+    url: 'https://twitter.com/',
+  },
+  {
+    id: 'icon-3',
+    img: instagramLogo,
+    alt: 'Instagram logo',
+    url: 'https://www.instagram.com/',
   },
 ];

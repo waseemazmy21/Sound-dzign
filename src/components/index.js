@@ -4,5 +4,6 @@ import Topics from './Topics';
 import Info from './Info';
 import Blog from './Blog';
 import Testimonials from './Testimonials';
+import Footer from './Footer';
 
-export { Header, Navbar, Topics, Info, Blog, Testimonials };
+export { Header, Navbar, Topics, Info, Blog, Testimonials, Footer };
